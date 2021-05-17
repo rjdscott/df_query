@@ -8,6 +8,7 @@ from click.testing import CliRunner
 
 from df_query import df_query
 from df_query import cli
+import pandas as pd
 
 
 @pytest.fixture
