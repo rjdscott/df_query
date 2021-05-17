@@ -8,7 +8,6 @@ from click.testing import CliRunner
 
 from df_query import df_query
 from df_query import cli
-from df_query import QueryContext
 import pandas as pd
 
 
