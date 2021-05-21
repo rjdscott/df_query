@@ -6,8 +6,8 @@ DFQuery
 .. image:: https://img.shields.io/pypi/v/df_query.svg
         :target: https://pypi.python.org/pypi/df_query
 
-.. image:: https://img.shields.io/travis/rjdscott/df_query.svg
-        :target: https://travis-ci.com/rjdscott/df_query
+.. image:: https://travis-ci.com/rjdscott/df_query.svg?branch=main
+    :target: https://travis-ci.com/rjdscott/df_query
 
 .. image:: https://readthedocs.org/projects/df-query/badge/?version=latest
         :target: https://df-query.readthedocs.io/en/latest/?version=latest
