@@ -69,8 +69,13 @@ To use DFQuery in a project
                 join orders o on o.customer_id = c.id
                 group by c.name
                 """
-
-    dfq.sql(sql_query)
+    
+    # create a dataframe from the sql query
+    df = dfq.sql(sql_query)
+    print(df)
+    
+    # delete database if stored on disk
+    df1.db_cleanup()
 
 
 
