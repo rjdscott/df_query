@@ -41,7 +41,7 @@ To use DFQuery in a project
     dfq = QueryContext()
 
     # OR if you want to persist you can specify a path on local disk
-    dfq = query_context('path/to/data.sqlite')
+    dfq = QueryContext('path/to/db.sqlite')
 
     customer_data = {
         'id':[1,2,3,4],
