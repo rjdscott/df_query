@@ -44,7 +44,7 @@ To use DFQuery in a project
     dfq = QueryContext('path/to/db.sqlite')
 
     customer_data = {
-        'id':[1,2,3,4],
+        'id':[1,2,3],
         'name': ['Boris', 'Bobby', 'Judit']
     }
 
